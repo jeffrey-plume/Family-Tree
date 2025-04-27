@@ -1,43 +1,54 @@
 # 🌳 Plume Family Tree
 
 Welcome to the **Plume Family Tree** project!  
-This project visualizes our family history using an interactive graph generated from a GEDCOM file.
+This project brings our family history to life with interactive visualizations generated directly from a GEDCOM file.
 
 ---
 
 ## 📜 Project Overview
 - Built with **Python**, **Plotly**, and **NetworkX**.
 - Parses family relationships from a `.ged` (GEDCOM) file.
-- Displays an interactive graph colored by country of birth.
+- Displays both an interactive family tree **and** a birthplaces map.
 
 ---
 
-## 🌍 Explore the Interactive Tree
+## 🌍 Explore the Visualizations
 
-🔗 [Click here to view the family tree](https://jeffrey-plume.github.io/Family-Tree/plume_family_tree.html)
+🔗 [**Family Tree Visualization**](https://jeffrey-plume.github.io/Family-Tree/plume_family_tree.html)
+
+🔗 [**Birthplaces Map**](https://jeffrey-plume.github.io/Family-Tree/family_map.html)
+
+Open either one in your browser to explore, zoom, and hover for more details!
 
 ---
 
 ## 🛠️ How It Works
-- Individuals are nodes in the graph.
-- Parent-child relationships are edges.
-- Node colors indicate the individual's birth country.
-- Hovering over nodes reveals detailed birth information.
+- **Family Tree**:  
+  - Individuals are nodes; parent-child relationships are edges.
+  - Node colors indicate the country of birth.
+  - Hovering over nodes shows full birth and death information.
+
+- **Birthplaces Map**:  
+  - Pins each individual’s birthplace on an interactive world map.
+  - Hovering over pins shows names and birth dates.
 
 ---
 
-## 📂 Files
-- `Plume Family Tree.ged` - Source GEDCOM file.
-- `plume_family_tree.html` - Interactive tree visualization.
+## 📂 Project Files
+- `Plume Family Tree.ged` — Source GEDCOM file.
+- `plume_family_tree.html` — Interactive family tree visualization.
+- `family_map.html` — Interactive birthplaces map.
 
 ---
 
 ## ✨ Future Plans
 - Add search functionality.
-- Highlight specific lineages.
-- Show additional metadata like marriage dates.
+- Highlight direct ancestors.
+- Display more life events like marriages, migrations, and deaths.
 
 ---
 
 ## 📢 Credits
 Created by [Jeffrey Plume](https://github.com/jeffrey-plume).
+
+---
