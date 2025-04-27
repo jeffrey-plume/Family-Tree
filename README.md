@@ -40,4 +40,4 @@ This project visualizes our family history using an interactive graph generated 
 ---
 
 ## 📢 Credits
-Created by [Jeffrey Plume](https://github.com/jeffrey-plume) with love for data, history, and family.
+Created by [Jeffrey Plume](https://github.com/jeffrey-plume).
